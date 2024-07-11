@@ -1,3 +1,5 @@
+# Write a program to find the nth smallest element in a list.
+
 def find_nth_smallest(list, n):
     if n < len(list) and n > 0:
         sorted_list = sorted(set(list))
