@@ -1,6 +1,7 @@
 # Write a program to check if a given string is a palindrome or not.
 
 def is_palindrome(string):
+    string = string.lower()
     return string == string[::-1]
 
 string = input("Enter the string: ")
